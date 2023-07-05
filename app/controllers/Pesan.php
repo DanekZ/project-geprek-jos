@@ -11,8 +11,13 @@ class Pesan extends Controller {
    public function pesanan(){
      
       if( $this->model('Pesan_model')->tambahPesanan($_POST) > 0 ) {
-         echo "ok";
+         echo "<script>
+               alert('pesanan anda sudah kami terima');
+               document.location.href='".BASEURL."/home';
+            </script>";
      } else {
+
+      
       
      }
    }

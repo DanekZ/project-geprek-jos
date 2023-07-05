@@ -13,7 +13,7 @@
          <p class="menu-card-price">
             Rp <?= $row['harga'] ?>.000
          </p>
-         <button class="menu-card-button" onclick="document.location.href='pesan.php'">Pesan</button>
+         <button class="menu-card-button" onclick="document.location.href='<?= BASEURL; ?>/pesan'">Pesan</button>
       </div>
       <?php endif ?>
       <?php endforeach ?>

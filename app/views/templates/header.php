@@ -4,7 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Beranda</title>
+   <title><?= $data['judul']; ?></title>
+   <link rel="icon" type="image/x-icon" href="<?= BASEURL; ?>/images/logo.jpeg">
 
    <!-- external CSS stylesheet -->
    <link rel="stylesheet" href="<?= BASEURL; ?>/css/style.css">
